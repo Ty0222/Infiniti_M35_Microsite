@@ -2,8 +2,12 @@
 
 /* GLOBAL STYLES */
 
+html {
+    background: #000;
+}
+
 body {
-    background: url(../images/bg.jpg) #000 no-repeat top center;
+    background: url(../images/bg.jpg) no-repeat top center;
 }
 
 .clear {
