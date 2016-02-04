@@ -2,8 +2,13 @@
 
 /* GLOBAL STYLES */
 
+html {
+    background: #000;
+}
+
 body {
-    background: url(../images/bg.jpg) #000 no-repeat top center;
+    background: url(../images/bg.jpg) no-repeat top center;
+
 }
 
 .clear {
@@ -653,4 +658,22 @@ body {
 
 ::-moz-placeholder {
 	color: black;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    #container_quote {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    #container_quote_form {
+        float: none;
+        margin-left: -20px;
+    }
+
+    #container_car_and_msrp {
+        float: none;
+        margin: 0 auto;
+    }
 }
